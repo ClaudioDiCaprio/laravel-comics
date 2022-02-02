@@ -1,15 +1,16 @@
-<header>
+<header class="header">
    <div class="container">
-    <a href="">
-        <img src="{{asset('img/dc-logo.png')}}" alt="DC_Logo">
-    </a>
+   
     <nav class="main-nav">
         <ul>
+            <a href="">
+                <img class="logo" src="{{asset('img/dc-logo.png')}}" alt="DC_Logo">
+            </a>
             <li >
                 <a href="/characters">Characters</a>
             </li>
             <li >
-                <a href="/comics">comics</a>
+                <a class="active" href="/comics">comics</a>
             </li>
             <li >
                 <a href="/movies">movies</a>

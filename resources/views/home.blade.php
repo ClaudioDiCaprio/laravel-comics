@@ -1,9 +1,10 @@
 @extends('layouts.base')
 
 @section('pageTitle')
-home
+DC'Comics
 @endsection
 
 @section('pageContent')
-<h1>home page</h1>
+@include('partials.jumbotron')
+
 @endsection
