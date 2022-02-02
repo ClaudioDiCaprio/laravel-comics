@@ -1,4 +1,53 @@
 .main{
     background-color: #1c1c1c;
-    height: 520px;
+    // height: 520px;
+    position: relative;
+
+    .current-series {
+        position: absolute;
+        top: -30px;
+        left: 330px;
+        color: white;
+        background-color: #0282f9;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .conta {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 150px 0 75px;
+        position: relative;
+
+       
+        .comic-sachet {
+            a {
+                text-decoration: none;
+            }
+            width: calc(100% / 6 - 10px);
+            padding: 5px;
+            margin-bottom: 50px;
+            color: white;
+            &:hover {
+                transform: scale(1.02);
+            }
+            .comic-cover {
+                width: 100%;
+                display: block;
+                aspect-ratio: 1;
+                object-fit: cover;
+                object-position: top;
+                margin-bottom: 20px;
+            }
+            .comic-title {
+                color: white;
+                align-items: center;
+            }
+        }
+    }    
+    
 }

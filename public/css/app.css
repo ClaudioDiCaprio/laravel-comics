@@ -12,6 +12,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .header {
@@ -54,7 +56,52 @@ body {
 
 .main {
   background-color: #1c1c1c;
-  height: 520px;
+  position: relative;
+}
+.main .current-series {
+  position: absolute;
+  top: -30px;
+  left: 330px;
+  color: white;
+  background-color: #0282f9;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.main .conta {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 150px 0 75px;
+  position: relative;
+}
+.main .conta .comic-sachet {
+  width: calc(16.6666666667% - 10px);
+  padding: 5px;
+  margin-bottom: 50px;
+  color: white;
+}
+.main .conta .comic-sachet a {
+  text-decoration: none;
+}
+.main .conta .comic-sachet:hover {
+  transform: scale(1.02);
+}
+.main .conta .comic-sachet .comic-cover {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin-bottom: 20px;
+}
+.main .conta .comic-sachet .comic-title {
+  color: white;
+  align-items: center;
 }
 
 .jumbo {
