@@ -52,6 +52,11 @@ body {
   color: #0282f9;
 }
 
+.main {
+  background-color: #1c1c1c;
+  height: 520px;
+}
+
 .jumbo {
   height: 450px;
 }
