@@ -1,6 +1,7 @@
 <header class="header">
+    <div class="blue_stripe"></div>
    <div class="container">
-   
+    
     <nav class="main-nav">
         <ul>
             <a href="">
@@ -36,9 +37,7 @@
             <li >
                 <a href="/shop">shop</a>
             </li>
-            <li >
-                <a href="/"></a>
-            </li>
+            
         </ul>
     </nav>
    </div>

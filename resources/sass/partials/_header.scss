@@ -1,6 +1,11 @@
 .header{
     text-align: center;
 
+    .blue_stripe{
+        height: 15px;
+        background-color: #0282f9;
+    }
+
     .logo{
         display: inline-block;
         margin: 15px 0;
@@ -16,24 +21,24 @@
             margin: 0 10px;
             a{
                 display: inline-block;
-                padding: 15px;
+                padding:  60px 15px;
                 text-decoration: none;
                 text-transform: uppercase;
                 color: black;
                 font-size: 15px;
-                border-bottom: 3px solid white;
+                border-bottom: 5px solid white;
 
                 &.active {
             a {
                 color: #0282f9;
             }
-            border-bottom: 3px solid #0282f9;
+            border-bottom: 5px solid #0282f9;
         }
         &:hover {
             a {
                 color: #0282f9;
             }
-            border-bottom: 3px solid #0282f9;
+            border-bottom: 5px solid #0282f9;
         }
             }
         }
