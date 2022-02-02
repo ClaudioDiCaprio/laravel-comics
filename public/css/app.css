@@ -91,6 +91,7 @@ body {
   position: absolute;
   right: 600px;
   top: 800px;
+  text-decoration: none;
 }
 .main .conta .load-btn:hover {
   transform: scale(1.05);
@@ -132,4 +133,28 @@ body {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.link-strip {
+  background-color: #0282f9;
+  padding: 50px 0;
+}
+.link-strip ul {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.link-strip ul li {
+  display: inline-block;
+}
+.link-strip ul li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.link-strip ul li a img {
+  height: 60px;
+  margin-right: 20px;
 }

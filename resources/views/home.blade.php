@@ -8,5 +8,6 @@ DC'Comics
 
 @include('partials.jumbotron')
 @include('partials.main')
+@include('partials.strip')
 
 @endsection
