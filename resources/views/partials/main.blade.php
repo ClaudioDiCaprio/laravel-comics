@@ -10,5 +10,6 @@
                 </a>
             </div>
         @endforeach
+        <a href="" class="load-btn">LOAD MORE</a>
    </div>
 </main>

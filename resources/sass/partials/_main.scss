@@ -23,6 +23,20 @@
         padding: 150px 0 75px;
         position: relative;
 
+        .load-btn {
+            margin: 0 auto;
+            color: white;
+            font-weight: bold;
+            background-color: #0282f9;
+            padding: 10px 50px;
+            margin: 100px;
+            position: absolute;
+            right: 600px;
+            top: 800px;
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
        
         .comic-sachet {
             a {

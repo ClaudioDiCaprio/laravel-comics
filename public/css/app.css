@@ -81,6 +81,20 @@ body {
   padding: 150px 0 75px;
   position: relative;
 }
+.main .conta .load-btn {
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+  background-color: #0282f9;
+  padding: 10px 50px;
+  margin: 100px;
+  position: absolute;
+  right: 600px;
+  top: 800px;
+}
+.main .conta .load-btn:hover {
+  transform: scale(1.05);
+}
 .main .conta .comic-sachet {
   width: calc(16.6666666667% - 10px);
   padding: 5px;
